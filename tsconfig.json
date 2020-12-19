@@ -1,0 +1,29 @@
+
+{
+
+  "compileroptions": {
+    "target": "es2015",                       /* specify ecmascript target version: 'es3' (default), 'es5', 'es2015', 'es2016', 'es2017', 'es2018', 'es2019', 'es2020', or 'esnext'. */
+    "module": "es2015",                       /* specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'esnext'. */
+    "outdir": "./dist/es6",                   /* redirect output structure to the directory. */
+    "strict": true,                           /* enable all strict type-checking options. */
+    "noimplicitany": true,                    /* raise error on expressions and declarations with an implied 'any' type. */
+    "strictnullchecks": true,                 /* enable strict null checks. */
+    "strictfunctiontypes": true,              /* enable strict checking of function types. */
+    "strictbindcallapply": true,              /* enable strict 'bind', 'call', and 'apply' methods on functions. */
+    "strictpropertyinitialization": true,     /* enable strict checking of property initialization in classes. */
+    "noimplicitthis": true,                   /* raise error on 'this' expressions with an implied 'any' type. */
+    "alwaysstrict": true,                     /* parse in strict mode and emit "use strict" for each source file. */
+    "esmoduleinterop": true,                  /* enables emit interoperability between commonjs and es modules via creation of namespace objects for all imports. implies 'allowsyntheticdefaultimports'. */
+    "skiplibcheck": true,                     /* skip type checking of declaration files. */
+    "forceconsistentcasinginfilenames": true  /* disallow inconsistently-cased references to the same file. */
+  },
+
+  "include": [
+    "./src/ts/**/*.ts"
+  ],
+    "exclude":[
+        "./src/ts/tests/*"
+    ]
+
+
+}

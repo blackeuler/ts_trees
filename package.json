@@ -1,0 +1,29 @@
+{
+  "name": "ts_trees",
+  "version": "1.0.0",
+  "description": "My attempt at explaining trees and what not",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "typescript": "tsc --build-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackeuler/ts_trees.git"
+  },
+  "keywords": [
+    "Trees",
+    "Algorithms"
+  ],
+  "author": "monadicdragon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackeuler/ts_trees/issues"
+  },
+  "homepage": "https://github.com/blackeuler/ts_trees#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}
